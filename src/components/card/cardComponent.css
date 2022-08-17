@@ -1,0 +1,55 @@
+.card {
+  margin: 20px 21px;
+  display: flex;
+  justify-content: center;
+}
+
+.rating {
+  display: flex;
+  float: left;
+  min-width: 250px;
+}
+
+.about,
+.price {
+  float: left;
+  min-width: 250px;
+  padding: 2px 0px;
+}
+
+.rating-description {
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+}
+
+.rating-description-2 {
+  color: #918e9b;
+  padding-left: 5px;
+}
+
+.card-content {
+  margin: 2px 15px;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-image img {
+  min-height: 350px;
+  min-width: 250px;
+  max-width: 250px;
+  max-height: 350px;
+  border-radius: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .card {
+    flex-direction: column;
+  }
+
+  .card-content {
+    margin: 15px 15px;
+  }
+}
