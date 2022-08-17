@@ -30,10 +30,10 @@
 
 @media only screen and (max-width: 768px) {
   .hero-logo {
-    width: 100%;
-    max-width: 345px;
+    width: 74%;
     padding: 20px 40px;
   }
+
   .hero-text {
     padding-right: 0px;
     font-size: 14px;
